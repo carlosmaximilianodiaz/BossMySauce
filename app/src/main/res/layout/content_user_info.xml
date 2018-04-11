@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.karlalgonzalezdiaz.firstapp.UserInfoActivity"
+    tools:showIn="@layout/activity_user_info">
+
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:hint="@string/name"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:hint="@string/email"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:gravity="bottom"
+        android:text="@string/sign_in"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>
